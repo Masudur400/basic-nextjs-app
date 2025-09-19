@@ -25,7 +25,7 @@ export default function Counter() {
             <div className="w-full max-w-2xl opacity-85 border shadow-lg rounded-2xl p-6 md:p-10">
                 <header className="mb-6 text-center">
                     <h1 className="text-2xl md:text-3xl font-extrabold">Counter</h1>
-                    <p className="mt-1 text-sm  ">Simple counter with step, auto mode, and reset — বানানো হয়েছে Tailwind দিয়ে</p>
+                    <p className="mt-1 text-sm  ">Simple counter with step, auto mode, and reset using TailwindCSS</p>
                 </header>
 
                 <main className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
