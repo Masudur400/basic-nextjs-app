@@ -4,10 +4,9 @@ import React from 'react';
 
 const CommonLayout = ({children} : {children : React.ReactNode}) => {
     return (
-        <div>
+        <div className=''>
             <NavBar></NavBar>
-            <div className='container mx-auto p-3'>
-
+            <div className='min-h-[250px] container mx-auto p-3'> 
                 {children}
             </div>
             <Footer></Footer>

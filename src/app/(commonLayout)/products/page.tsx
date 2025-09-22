@@ -7,8 +7,14 @@ import React from 'react';
 
 const ProductsPage = async () => {
 
-    const res = await fetch('http://localhost:5000/products')
-    const products = await res.json() 
+    const res = await fetch('http://localhost:5000/products', {
+        // next: {
+        //     revalidate: 1
+        //     // tags:['products']
+        // }
+        cache:'no-store'
+    })
+    const products = await res.json()
 
     return (
         <div>
